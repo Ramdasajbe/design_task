@@ -1,0 +1,32 @@
+/* .trusted h4 {
+  margin-left: 80px;
+  padding-top: 20px;
+} */
+.trusted img {
+  height: 100%;
+  width: 100%;
+}
+.trusted {
+  margin-top: 100px;
+}
+.img-wrap {
+  width: 90%;
+  max-height: 120px;
+  height: 120px;
+  display: block;
+  margin-top: 70px;
+  padding: 10% 15%;
+
+  border: 1px solid lightgray;
+  box-shadow: 5px 4px 4px 5px #d3d3d387;
+}
+/* .trusted1 {
+  align-items: center;
+  justify-content: center;
+} */
+@media only screen and (max-width: 984px) {
+  .trusted img {
+    height: 130px;
+    width: 90px;
+  }
+}

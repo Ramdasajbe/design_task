@@ -1,0 +1,30 @@
+/* html {
+  font-size: 62.5%;
+} */
+.icons {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: 1.2rem;
+}
+.container {
+  background-color: #ffffff;
+}
+.icon1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+.icons :hover {
+  color: #40aa54;
+  background-color: #ecf7ee;
+}
+/* .icons span :hover {
+  color: #74c182;
+} */

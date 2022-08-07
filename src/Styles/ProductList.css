@@ -1,0 +1,87 @@
+button {
+  background-color: #40aa54;
+  color: white;
+  border-color: #40aa54;
+  border-radius: 20px;
+  border-bottom: #40aa54;
+  border-right: #40aa54;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.Product h3 {
+  display: inline-block;
+  max-width: 70%;
+  text-align: left;
+  float: left;
+}
+
+.Product button {
+  float: left;
+  text-align: right;
+}
+.container {
+  background-color: #ffffff;
+}
+.icon {
+  border: #cfd2cf 1px solid;
+}
+.prodimage {
+  height: 220px;
+
+  border-radius: 20px;
+}
+.icon1 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.prod {
+  display: flex;
+  justify-content: space-between;
+}
+.prod1 {
+  display: flex;
+  align-items: center;
+}
+/* .list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.prodinner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.m-15-r {
+  margin-right: 15px;
+}
+.col-sp-2 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 15px 15px;
+}
+.spacer-top-3 {
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+.bg {
+  background-image: url("../../public//images/prod-bg.png");
+}
+.transperant {
+  background-color: transparent;
+}
+@media only screen and (max-width: 770px) {
+  .prodimage {
+    height: 180px;
+  }
+}

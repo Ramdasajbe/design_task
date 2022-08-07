@@ -1,0 +1,17 @@
+.main-conatiner {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 984px) {
+  .popolarimage {
+    height: 150px;
+    width: 200px;
+  }
+  .popularplus {
+    font-size: 10px;
+  }
+  .innerrow {
+    margin-left: 100px;
+  }
+}

@@ -1,0 +1,27 @@
+/* html {
+  font-size: 62.5%;
+} */
+/* .App {
+  background-color: #f7f7f7;
+} */
+.main {
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+}
+.heart {
+  background-color: #fff0ee;
+  color: #ff6d59;
+}
+.carticon {
+  background-color: #ecf7ee;
+  color: #74c182;
+}
+.headerimg {
+  display: flex;
+}
+.SliderIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
